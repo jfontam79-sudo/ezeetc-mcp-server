@@ -15,15 +15,29 @@
     "TC", "California", "email automation", "disclosure", "RPA",
     "title company", "closing", "deadline tracking"
   ],
-  "capabilities": {
-    "tools": true,
-    "skills": true,
-    "commands": true,
-    "mcp": true
+  "userConfig": {
+    "server_url": {
+      "type": "string",
+      "title": "EZeeTC Server URL",
+      "description": "Your EZeeTC MCP server URL (provided after purchase)",
+      "required": true
+    },
+    "bearer_token": {
+      "type": "string",
+      "title": "Authentication Token",
+      "description": "Your EZeeTC bearer token for authentication",
+      "sensitive": true,
+      "required": true
+    }
   },
-  "requirements": {
-    "google-workspace": "Gmail, Google Drive, and Google Sheets access",
-    "docusign": "DocuSign production account (optional — for electronic signing)"
+  "mcpServers": {
+    "ezeetc": {
+      "type": "url",
+      "url": "${user_config.server_url}",
+      "headers": {
+        "Authorization": "Bearer ${user_config.bearer_token}"
+      }
+    }
   },
   "repository": "https://github.com/jfontam79-sudo/ezeetc-mcp-server",
   "homepage": "https://ezeetc.com",
