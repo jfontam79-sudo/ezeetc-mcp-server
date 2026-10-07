@@ -5,7 +5,7 @@
   "description": "AI-powered Transaction Coordinator for California real estate. 31 tools, 3 resources, and 5 workflow prompts for email, DocuSign, transactions, contacts, and TC automation. Reduces TC workload by 60-80%.",
   "author": {
     "name": "Marseille Capital DBA EZeeTC",
-    "email": "jfontam79@gmail.com",
+    "email": "john@ezeetc.com",
     "url": "https://ezeetc.com"
   },
   "license": "proprietary",
@@ -41,5 +41,6 @@
   },
   "repository": "https://github.com/jfontam79-sudo/ezeetc-mcp-server",
   "homepage": "https://ezeetc.com",
+  "privacyPolicyUrl": "https://ezeetc.com/privacy",
   "icon": "icon.png"
 }
