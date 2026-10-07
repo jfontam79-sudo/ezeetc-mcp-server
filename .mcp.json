@@ -1,6 +1,6 @@
 {
   "ezeetc": {
-    "type": "url",
+    "type": "http",
     "url": "${user_config.server_url}",
     "headers": {
       "Authorization": "Bearer ${user_config.bearer_token}"
