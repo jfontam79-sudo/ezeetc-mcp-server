@@ -1,0 +1,31 @@
+{
+  "name": "ezeetc",
+  "version": "2.1.0",
+  "displayName": "EZeeTC — Transaction Coordinator AI",
+  "description": "AI-powered Transaction Coordinator for California real estate. 31 tools, 3 resources, and 5 workflow prompts for email, DocuSign, transactions, contacts, and TC automation. Reduces TC workload by 60-80%.",
+  "author": {
+    "name": "Marseille Capital DBA EZeeTC",
+    "email": "jfontam79@gmail.com",
+    "url": "https://ezeetc.com"
+  },
+  "license": "proprietary",
+  "categories": ["productivity", "real-estate", "automation"],
+  "keywords": [
+    "transaction coordinator", "real estate", "escrow", "DocuSign",
+    "TC", "California", "email automation", "disclosure", "RPA",
+    "title company", "closing", "deadline tracking"
+  ],
+  "capabilities": {
+    "tools": true,
+    "skills": true,
+    "commands": true,
+    "mcp": true
+  },
+  "requirements": {
+    "google-workspace": "Gmail, Google Drive, and Google Sheets access",
+    "docusign": "DocuSign production account (optional — for electronic signing)"
+  },
+  "repository": "https://github.com/ezeetc/ezeetc-mcp-server",
+  "homepage": "https://ezeetc.com",
+  "icon": "icon.png"
+}

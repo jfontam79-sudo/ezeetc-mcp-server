@@ -1,0 +1,34 @@
+{
+  "name": "ezeetc-mcp-server",
+  "version": "2.1.0",
+  "description": "EZeeTC MCP Server — AI-powered Transaction Coordinator for California real estate. 31 tools, 3 resources, 5 workflow prompts for email, DocuSign, transactions, contacts, and TC workflows.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node test-server.sh"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "express": "^4.21.0",
+    "zod": "^3.23.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp", "model-context-protocol", "claude", "transaction-coordinator",
+    "real-estate", "docusign", "escrow", "california", "tc", "automation"
+  ],
+  "author": {
+    "name": "Marseille Capital DBA EZeeTC",
+    "email": "jfontam79@gmail.com",
+    "url": "https://ezeetc.com"
+  },
+  "license": "proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezeetc/ezeetc-mcp-server"
+  }
+}

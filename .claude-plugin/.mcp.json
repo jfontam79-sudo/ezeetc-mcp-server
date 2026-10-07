@@ -1,0 +1,9 @@
+{
+  "ezeetc": {
+    "type": "http",
+    "url": "${EZEETC_MCP_URL}",
+    "headers": {
+      "Authorization": "Bearer ${EZEETC_API_TOKEN}"
+    }
+  }
+}
