@@ -25,7 +25,7 @@
     "google-workspace": "Gmail, Google Drive, and Google Sheets access",
     "docusign": "DocuSign production account (optional — for electronic signing)"
   },
-  "repository": "https://github.com/ezeetc/ezeetc-mcp-server",
+  "repository": "https://github.com/jfontam79-sudo/ezeetc-mcp-server",
   "homepage": "https://ezeetc.com",
   "icon": "icon.png"
 }
