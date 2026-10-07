@@ -15,8 +15,8 @@ set -e
 PROJECT_ID="ezeetc-voice-3d54d"
 REGION="us-west1"
 SERVICE_NAME="ezeetc-mcp"
-BEARER_TOKEN="0afab2b10d756c88cd84f3ec88e9ebc838ff2ed49fb0690e331d9bd7c8141f5e"
-GAS_URL="https://script.google.com/macros/s/AKfycbxEm4G8XQzCHfxcEQ-Kzaxew0pfIdlxfSBMpHmv0SvPaRDUBU8GQcZbdaJIHpRABwANjQ/exec"
+BEARER_TOKEN="${MCP_BEARER_TOKEN:?Set MCP_BEARER_TOKEN env var before deploying}"
+GAS_URL="${GAS_URL:?Set GAS_URL env var before deploying}"
 
 echo "================================================"
 echo "  EZeeTC MCP Server — Cloud Run Deployment"

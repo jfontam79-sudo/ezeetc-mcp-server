@@ -13,7 +13,7 @@ set -e
 PROJECT_ID="ezeetc-voice-3d54d"
 REGION="us-west1"
 SERVICE_NAME="ezeetc-mcp"
-GAS_URL="https://script.google.com/macros/s/AKfycbxEm4G8XQzCHfxcEQ-Kzaxew0pfIdlxfSBMpHmv0SvPaRDUBU8GQcZbdaJIHpRABwANjQ/exec"
+GAS_URL="${GAS_URL:?Set GAS_URL env var before deploying}"
 
 echo "================================================"
 echo "  EZeeTC MCP — TEMPORARY No-Auth Deploy"

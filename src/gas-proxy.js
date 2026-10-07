@@ -16,9 +16,12 @@
  * ============================================================
  */
 
-// GAS web app URL — set via env or defaults to the current deployed URL
-const GAS_URL = process.env.GAS_URL ||
-  "https://script.google.com/macros/s/AKfycbxEm4G8XQzCHfxcEQ-Kzaxew0pfIdlxfSBMpHmv0SvPaRDUBU8GQcZbdaJIHpRABwANjQ/exec";
+// GAS web app URL — MUST be set via environment variable
+const GAS_URL = process.env.GAS_URL;
+if (!GAS_URL) {
+  console.error("[EZeeTC MCP] FATAL: GAS_URL environment variable is required");
+  process.exit(1);
+}
 
 // Retry configuration
 const MAX_RETRIES = 2;
